@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Table Tag</title>
+  </head>
+  <body>
+<h2>What is <font color=2b8888>Table Tag?</font></h2>
+A simple HTML table, containing  columns and rows:
+<br>
+<br>
+<strong>The &lt; table &gt; tag defines an HTML table:</strong>
+
+<table>
+  <tr>
+  <td>  An HTML table consists of one &lt;table&gt; element and one or more &lt;tr&gt;, &lt;th&gt;, and &lt;td&gt; elements.</td>
+  </tr>
+  <tr>
+    <td> These elements &lt;tr&gt;, &lt;th&gt;, and &lt;td&gt; are further used in table tag to becomes a proper table.</td>
+  </tr>
+  <br>
+</table>
+<br>
+<table border="1">
+  <tr bgcolor=2b8888>
+    <th> <font color=white>Syntax</font></th>
+    <th> <font color=white>Description</font></th>
+  </tr>
+  <tr >
+    <td>  &lt;tr&gt;  &lt;/tr&gt;  </td>
+    <td>This element defines a table row </td>
+  </tr>
+  <tr>
+    <td>&lt;th&gt;   &lt;/th&gt;</td>
+    <td> This element defines a table header </td>
+  </tr>
+  <tr>
+    <td> &lt;td&gt   &lt;/td&gt</td>
+    <td>This element defines a table cell</td>
+  </tr>
+</table>
+
+<h2>Example:</h2>
+&lt table border=3 &gt;
+<br>
+&lt tr  &gt;
+<br>
+&lt th  &gt; Sr.No &lt/ th  &gt;
+<br>
+&lt th  &gt; Name &lt/ th  &gt;
+<br>
+&lt th  &gt; Position &lt/ th  &gt;
+<br>
+&lt /tr &gt;
+<br>
+<br>
+&lt tr &gt;
+<br>
+&lt td  &gt; 1 &lt/ td  &gt;
+<br>
+&lt td  &gt; Ali &lt/ td  &gt;
+<br>
+&lt td  &gt; 1st &lt/ td  &gt;
+<br>
+&lt /tr &gt;
+<br>
+&lt /table &gt;
+<br />
+<h3>Result:</h3>
+<table border=3>
+  <tr>
+    <th>Sr.No</th>
+    <th>Name</th>
+    <th>Position</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Ali</td>
+    <td>1st</td>
+  </tr>
+</table>
+<hr>
+<h2>Table Tag Attributes:</h2>
+<ul>
+  <li>Border</li>
+  <li>Cellpadding</li>
+  <li>Cellspacing</li>
+</ul>
+<br>
+<table border=1>
+  <tr bgcolor=2b8888>
+    <th><font color=white>Attributes</font></th>
+    <th><font color=white>Description<font></th>
+  </tr>
+  <tr>
+    <td>Border</td>
+    <td>The HTML < table > border Attribute is used to specify the border of a table. It sets the border around the table cells</td>
+  </tr>
+  <tr >
+    <td>Cellpadding</td>
+    <td>It represents the distance between cell borders </td>
+  </tr>
+  <tr>
+    <td>Cellspacing</td>
+    <td>This attribute defines space between table cells</td>
+  </tr>
+</table>
+<h2>Example:</h2>
+< table border=3 Cellpadding=10%  Cellspacing=10% >
+<br>
+< tr >
+<br>
+< th > Sr.No < /th >
+<br>
+< th > Name < /th >
+<br>
+< th > Position < /th >
+<br>
+< /tr >
+<br>
+< tr >
+<br>
+< td > 1 < /td >
+<br>
+< td > Ali < /td >
+<br>
+< td > 1st <  /td >
+<br>
+< /tr >
+<br>
+<h3>Result:</h3>
+<table>
+  <table border=3 Cellpadding=10%  Cellspacing=10% >
+  <tr>
+  <th> Sr.No </th>
+  <th> Name </th>
+  <th> Position </th>
+  </tr>
+
+  <tr>
+  <td> 1 </td>
+  <td> Ali </td>
+  <td> 1st </td>
+  </tr>
+</table>
+<br>
+<hr>
+<h2>Tr & Td Attributes:</h2>
+Two attributes which used in both tr and td is following as:
+<br>
+<ul>
+  <li>Colspan</li>
+  <li>Rowspan</li>
+</ul>
+<br>
+<table border=1>
+  <tr bgcolor=2b8888>
+    <th><font color=white>Attributes</font></th>
+    <th><font color=white>Description<font></th>
+  </tr>
+  <tr>
+    <td>Colspan</td>
+    <td>The colspan attribute defines the number of columns a cell should span.</td>
+  </tr>
+  <tr>
+    <td>Rowspan</td>
+    <td>The rowspan attribute specifies the number of rows a cell should span.</td>
+  </tr>
+</table>
+<h2>Example:</h2>
+<h3>Colspan:</h3>
+< table border="3" >
+<br>
+  < tr >
+  <br>
+    < td colspan="50%" >Ali< /td >
+    <br>
+    < td >Hamza< /td >
+<br>
+  < /tr >
+  <br>
+< /table >
+<br>
+<h3>Result:</h3>
+<table border="3">
+  <tr>
+    <td colspan="50%">Ali</td>
+    <td>Hamza</td>
+  </tr>
+</table>
+<hr>
+<h3>Rowspan:</h3>
+< table border="3" >
+<br>
+  < tr >
+  <br>
+    < td rowspan="50%" >Ali< /td >
+    <br>
+    < td >Hamza< /td >
+<br>
+  < /tr >
+  <br>
+  < tr >
+  <br>
+    < td >Hadi< /td >
+    <br>
+  < /tr >
+  <br>
+< /table >
+<h3>Result:</h3>
+<table border="3">
+  <tr>
+    <td rowspan="200%">Ali</td>
+    <td>Hamza</td>
+  </tr>
+  <tr>
+    <td>Hadi</td>
+  </tr>
+</table>
+<br>
+<hr>
+<video  controls poster="toft.jpg" width="1340"  >
+  <source src="<table></table>.mp4" type="video/mp4">
+</video>
+
+
+
+  </body>
+</html>
